@@ -33,7 +33,32 @@
 
 }
 /* Small Phones : 0 to 480px */
-@media only screen and (max-width: 480px) {
-
-    
+@media only screen and (max-width: 500px) {
+    .cover-text-box {
+        position: relative;
+        width:100%;
+        top:30%;
+        left:1%;
+        transform: translate(0%,0%);
+    }
+    .project-image img {
+        height: 200px;
+    }
+    .col { width: 100% ; margin: 0 0 4% 0;}
+    .resp2 {
+        visibility: hidden;
+        height: 0;
+    }
+    .resp {
+        visibility: visible;
+        height: auto;
+    }
+    .project-heading {
+        padding-top: 10%;
+        align-items: center;
+    }
+    .title-line::before {
+        padding-bottom: 4%;
+    padding-top: 0.5px;
+    }
 }

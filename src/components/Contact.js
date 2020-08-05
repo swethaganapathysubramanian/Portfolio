@@ -5,7 +5,7 @@ const Contact = () => {
         <div>
             <div className="contact-section" id="Contact">
                 <svg as height="75" preserveAspectRatio="none" width="100%" viewBox="0 0 100 100">
-                    <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white" />
+                    <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white" style={{ strokeOpacity: 0.1 }}/>
                     Sorry, your browser does not support inline SVG. M0 0 L50 100 L100 0 Z
                 </svg>
                 {/* <div className="contact-heading">
