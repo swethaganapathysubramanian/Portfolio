@@ -19,7 +19,7 @@ const Contact = () => {
                             <ion-icon name="logo-linkedin"></ion-icon></a>
                         <a id="profile-link" href="https://github.com/swethaganapathysubramanian" target="_blank" rel="noopener noreferrer" className="cntbtn contact-details">
                             <ion-icon name="logo-github"></ion-icon></a>
-                        <a id="profile-link" href="swethaganapathy2@gmail.com" target="_blank" rel="noopener noreferrer" className="cntbtn contact-details">
+                        <a id="profile-link" href="mailto:swethaganapathy2@gmail.com" target="_blank" rel="noopener noreferrer" className="cntbtn contact-details">
                             <ion-icon name="mail-open-outline"></ion-icon></a>
                     </div>
                 </div>
