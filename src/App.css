@@ -145,6 +145,14 @@ input[type=submit]:active {
 }
 }
 
+.is-current-proj {
+    border-bottom: 2px solid #e74c3c;
+}
+
+.is-current-contact {
+    border-bottom: 2px solid #e74c3c;
+}
+
 /*-----------Hero----------*/
 
 .hero{
@@ -169,6 +177,20 @@ input[type=submit]:active {
     left: 50%;
     transform: translate(-80%,-70%);
     letter-spacing:2px;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; 
+}
+.arrow {
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 /*-----------About---------*/
@@ -264,7 +286,7 @@ input[type=submit]:active {
 
 
 .line:before {
-  padding-top: 80px;
+  padding-top: 60px;
     content: " ";
     display: block;
     border-bottom: 1px solid rgba(138, 137, 137, 0.479);
@@ -357,11 +379,13 @@ ion-icon:hover {
 }
 
 .links {
-  font-size: 150%;
+  font-size: 180%;
   padding-bottom: 5%;
 }
-
-.links:hover{
+.links a:hover {
+  color:white;
+}
+.links ion-icon:hover{
   color: #e74c3c;
 }
 

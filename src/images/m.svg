@@ -1,0 +1,4 @@
+<svg height="110" width="100%" preserveAspectRatio="none" viewBox="0 0 100 100" className='hero-svg'>
+                <path d="M0 100 L50 100 L100 100 L100 0 L50 100 L0 0 Z" fill='white' stroke='white' />
+            Sorry, your browser does not support inline SVG.
+</svg>

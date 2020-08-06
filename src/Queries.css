@@ -1,3 +1,8 @@
+@media only screen and (min-width: 2000px) {
+
+
+}
+
 
 @media only screen and (max-width: 1320px) {
     
@@ -6,6 +11,7 @@
     top: 60%;
 }
 }
+
 /* Big tablet to 1200px  smaller than 1240px row */
 @media only screen and (max-width: 1200px) {
     
@@ -14,23 +20,83 @@
     top: 65%;
 }
 
-.card-detail {
-
-}
 }
 
 /* Small tablet to big tablets : 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    
+    .App {
+         font-size: 14px;
+    }
+    .cover-text-box {
+        position: relative;
+        width:100%;
+        top:30%;
+        left:1%;
+        transform: translate(0%,0%);
+    }
+     .project-image img {
+        height: 200px;
+    }
+      .line:before {
+  padding-top: 15px;
+  }
+    .title-line::before {
+        padding-bottom: 4%;
+    padding-top: 0.5px;
+    }
+    .project-heading {
+        padding-top: 5%;
+        align-items: center;
+    }
+  
+
 }
 
 
 /* Small Phones to small tablets : 481px to 767px */
-@media only screen and (max-width: 767px) {
-   
+@media only screen and (max-width: 721px) {
+    .App {
+         font-size: 14px;
+    }
+    /* .col { width: 100% ; margin: 0 0 4% 0;}
+ 
+    
+    .span-1-of-2{
+        width: 100%;
+    }
+    .span-2-of-2 {
+        width: 100%
+    } */
+     .project-image img {
+        height: 180px;
+    }
 
+}
 
-
+@media only screen and (max-width: 656px) {
+    .App {
+         font-size: 16px;
+    }
+           .resp2 {
+        visibility: hidden;
+        height: 0;
+    }
+    .resp {
+        visibility: visible;
+        height: auto;
+    }    
+    .col {
+        width: 100%; margin: 0 0 4% 0;
+    }
+    .project-image img {
+        height: 210px;
+    }
+    /* .span-1-of-2{
+        width:100%
+    } */
+    .project-data  {
+        width: 100%;
+    }
 }
 /* Small Phones : 0 to 480px */
 @media only screen and (max-width: 500px) {
@@ -52,6 +118,9 @@
     .resp {
         visibility: visible;
         height: auto;
+        text-align: center;
+        align-items: center;
+        
     }
     .project-heading {
         padding-top: 10%;
@@ -61,4 +130,22 @@
         padding-bottom: 4%;
     padding-top: 0.5px;
     }
+    .hero-svg {
+  position: absolute;
+  top:85%;
+  left:0;
+}
+}
+
+@media only screen and (max-width: 320px) {
+    .App {
+         font-size: 12px;
+    }
+    .project-image img {
+        height: 150px;
+    }
+    .hero-svg {
+  margin-top: -7%;
+
+}
 }

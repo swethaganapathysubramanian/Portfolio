@@ -4,7 +4,7 @@ const Contact = () => {
     return(
         <div>
             <div className="contact-section" id="Contact">
-                <svg as height="75" preserveAspectRatio="none" width="100%" viewBox="0 0 100 100">
+                <svg  height="75" preserveAspectRatio="none" width="100%" viewBox="0 0 100 100">
                     <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white" style={{ strokeOpacity: 0.1 }}/>
                     Sorry, your browser does not support inline SVG. M0 0 L50 100 L100 0 Z
                 </svg>
@@ -12,8 +12,8 @@ const Contact = () => {
                     <h2> Contact</h2>
                 </div> */}
                 <div className="contact-content">
-                    <h3> Lets get in touch</h3> <br/>
-                    <p style={{ fontStyle:'italic' }}> How do you take your coffee?</p><br/>
+                    <h1> Lets get in touch</h1> <br/>
+                    {/* <p style={{ fontStyle:'italic' }}> How do you take your coffee?</p><br/> */}
                     <div className="links">
                         <a id="profile-link" href="https://www.linkedin.com/in/swethaganapathysubramanian/" target="_blank" rel="noopener noreferrer" className="cntbtn contact-details">
                             <ion-icon name="logo-linkedin"></ion-icon></a>
