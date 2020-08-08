@@ -72,7 +72,7 @@ const Projects = () => {
                         Built with <strong className="my-name1">MERN stack and Redux</strong> <br /> <br />
                         Blogopedia is a platform to share/promote your own blog and read variety of blogs and review them
                         <p> <a href='https://github.com/swethaganapathysubramanian/BlogListFrontEnd'> <ion-icon name="logo-github"> </ion-icon></a>
-                            <a href="https://jovial-nightingale-1b3691.netlify.app/login"><ion-icon name="open-outline"></ion-icon></a></p>
+                            <a href="https://fierce-tundra-38137.herokuapp.com/login"><ion-icon name="open-outline"></ion-icon></a></p>
                     </p>
                     <div className="project-image col resp">
                         <img src={blogopedia} alt="Blogopedia" />
